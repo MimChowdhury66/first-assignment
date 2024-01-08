@@ -270,7 +270,7 @@ body {
 
     flex-shrink: 0;
     color: rgba(7, 2, 17, 0.30);
-    text-align:justify;
+    text-align: justify;
     font-family: Inter;
     font-size: 18px;
     font-style: normal;
@@ -301,4 +301,86 @@ body {
 
 
 
+}
+
+.footer {
+    /* position: relative; */
+
+    /* background-color: black; */
+    background: #070211;
+
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-left {
+    /* position: absolute; */
+    padding-left: 140px;
+    padding-top: 120px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    /* 166.667% */
+}
+
+.top-right {
+    padding-top: 120px;
+    padding-right: 140px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    /* line-height: 40px; */
+    /* 166.667% */
+}
+
+.footer-middle {
+
+    /* display: flex; */
+    /* margin: 48px; */
+    /* padding: 48px 540px; */
+
+}
+
+.footer-img {
+    display: flex;
+    gap: 24px;
+    width: 64px;
+    height: 64px;
+    padding: 48px 550px;
+
+
+}
+
+.bottom-left {
+    padding-left: 140px;
+padding-bottom: 120px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.bottom-right {
+    padding-left: 140px;
+padding-right: 140px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
 }
