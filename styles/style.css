@@ -311,6 +311,7 @@ body {
     height: 616px;
     margin: 80px;
 
+
 }
 
 .Subscribe.container {
@@ -358,12 +359,16 @@ body {
     position: relative;
     padding: 48px 336px 80px 336px;
     flex-shrink: 0;
+
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
 }
 
 .subscribe-input {
     border-radius: 50px;
     background: #FFF;
-    width: 438px;
+    width: 648px;
     /* height: 52px; */
     height: 72px;
 
@@ -391,7 +396,7 @@ body {
     position: absolute;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
-    margin-left: -200px;
+    margin-left: 438px;
     width: 210px;
     /* height: 52px; */
     flex-shrink: 0;
