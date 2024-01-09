@@ -1,7 +1,8 @@
 body {
-    /* margin: auto; */
-    /* margin: 0 140px; */
+    /* max-width: 1250px;
+    margin: 0 auto; */
 }
+
 
 .header-container {
 
@@ -23,7 +24,9 @@ body {
 
 .banner-title {
     padding-top: 177px;
-    color: blue;
+    color: #FFF;
+
+
     text-align: center;
     font-size: 32px;
     font-weight: 400;
@@ -32,12 +35,88 @@ body {
 .banner-topic {
     /* padding-top: 5px; */
     padding-bottom: 177px;
-    color: blue;
+    color: #FFF;
+
+
     text-align: center;
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
     /* 131.944% */
+}
+
+.best-offer-text h3 {
+    color: #F00;
+    /* text-align: center; */
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.best-offer-text h1 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.best-offer-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.best-offer-img {
+    width: 364.844px;
+    height: 364.844px;
+    border-radius: 50%;
+    padding: 25px;
+    border: 15px solid #F00;
+    /* width: 463px;
+    height: 463px; */
+    flex-shrink: 0;
+}
+
+
+.best-offer-container {
+    padding-top: 120px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.best-offer-year h1 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.best-offer-year p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 160% */
+}
+
+.best-offer-year img {
+    width: 140px;
+    height: 140px;
+    flex-shrink: 0;
 }
 
 .offer {
@@ -361,7 +440,7 @@ body {
 
 .bottom-left {
     padding-left: 140px;
-padding-bottom: 120px;
+    padding-bottom: 120px;
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
@@ -372,7 +451,7 @@ padding-bottom: 120px;
 
 .bottom-right {
     padding-left: 140px;
-padding-right: 140px;
+    padding-right: 140px;
     color: #FFF;
     font-family: Inter;
     font-size: 24px;
@@ -380,7 +459,8 @@ padding-right: 140px;
     font-weight: 500;
     line-height: normal;
 }
-.footer-bottom{
+
+.footer-bottom {
     display: flex;
     justify-content: space-between;
 }
